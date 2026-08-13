@@ -2,25 +2,25 @@ class Reeve < Formula
   desc "Localhost web dev stack manager: web servers, per-vhost PHP, SSL, DNS"
   homepage "https://github.com/yetidevworks/reeve"
   license "MIT"
-  version "0.3.3"
+  version "0.3.4"
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/yetidevworks/reeve/releases/download/v0.3.3/reeve-darwin-aarch64.tar.gz"
-      sha256 "0e5f73772776da2e4a37f55c53e41e9f75ebdb28b850fb8713a8b93417a05827"
+      url "https://github.com/yetidevworks/reeve/releases/download/v0.3.4/reeve-darwin-aarch64.tar.gz"
+      sha256 "28f21faa0cc3431eee0a6bfbc9d5f91ec95c03b619cbdfd774a1927c06706f2d"
     else
-      url "https://github.com/yetidevworks/reeve/releases/download/v0.3.3/reeve-darwin-x86_64.tar.gz"
-      sha256 "f2978ada628198bb99fcbaf162099f92b61a2a0f126b9248a7f1eff7e945ca38"
+      url "https://github.com/yetidevworks/reeve/releases/download/v0.3.4/reeve-darwin-x86_64.tar.gz"
+      sha256 "2ce91c2490d70e0856f70410dc90f9769a8394101fa34aaf6d587827d53cc6ce"
     end
   end
 
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/yetidevworks/reeve/releases/download/v0.3.3/reeve-linux-aarch64.tar.gz"
-      sha256 "fc58fbd8dc74154d804fdbf04cde3f42aa4f42cf4cd425e1d939ee774c0c7c38"
+      url "https://github.com/yetidevworks/reeve/releases/download/v0.3.4/reeve-linux-aarch64.tar.gz"
+      sha256 "df5d779e2becb11e50da306392d00ac8dabed6621aa2805a750d7fc9401b72e3"
     else
-      url "https://github.com/yetidevworks/reeve/releases/download/v0.3.3/reeve-linux-x86_64.tar.gz"
-      sha256 "7b3c3e1557658e557ca087e5c52c6a6bab118802e685f738dd9ba03ca249036f"
+      url "https://github.com/yetidevworks/reeve/releases/download/v0.3.4/reeve-linux-x86_64.tar.gz"
+      sha256 "c7c7ee2c06c75dcfefa0783e5c46a3e2d7e84612bb9affc2df94a2e1c7bb42c4"
     end
   end
 
